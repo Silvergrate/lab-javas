@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - LogAnalyzerTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>LogAnalyzerTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/ua.kpi.comsys.collections.html">ua.kpi.comsys.collections</a> &gt; LogAnalyzerTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">27</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.064s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="tab-container">
+<ul class="tabLinks">
+<li>
+<a href="#">Tests</a>
+</li>
+</ul>
+<div class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Method name</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">acceptsMissingRequestAndEscapedQuoteInRequestField()</td>
+<td class="success">acceptsMissingRequestAndEscapedQuoteInRequestField()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">ignoresMalformedAndNullEntriesWithoutCountingThem()</td>
+<td class="success">ignoresMalformedAndNullEntriesWithoutCountingThem()</td>
+<td class="success">0.011s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[10] 999.0.2.1 - - [01/May/2025:07:20:10 +0000] &quot;GET /index.html HTTP/1.1&quot; 200 9481</td>
+<td class="success">ignoresMalformedRecords(String)[10]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[11] 192.0.2 - - [01/May/2025:07:20:10 +0000] &quot;GET /index.html HTTP/1.1&quot; 200 9481</td>
+<td class="success">ignoresMalformedRecords(String)[11]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[12] 2001:::1 - - [01/May/2025:07:20:10 +0000] &quot;GET /index.html HTTP/1.1&quot; 200 9481</td>
+<td class="success">ignoresMalformedRecords(String)[12]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[13] example.org - - [01/May/2025:07:20:10 +0000] &quot;GET /index.html HTTP/1.1&quot; 200 9481</td>
+<td class="success">ignoresMalformedRecords(String)[13]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[14] 192.0.2.1 - - [01/May/2025:07:20:10 +0000] &quot;GET /index.html HTTP/1.1&quot; 200 9481 extra</td>
+<td class="success">ignoresMalformedRecords(String)[14]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[1] </td>
+<td class="success">ignoresMalformedRecords(String)[1]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[2]    </td>
+<td class="success">ignoresMalformedRecords(String)[2]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[3] 192.0.2.1</td>
+<td class="success">ignoresMalformedRecords(String)[3]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[4] 192.0.2.1 - - [01/May/2025:07:20:10 +0000] GET /index.html HTTP/1.1 200 9481</td>
+<td class="success">ignoresMalformedRecords(String)[4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[5] 192.0.2.1 - - [not-a-timestamp] &quot;GET /index.html HTTP/1.1&quot; 200 9481</td>
+<td class="success">ignoresMalformedRecords(String)[5]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[6] 192.0.2.1 - - [31/Feb/2025:07:20:10 +0000] &quot;GET /index.html HTTP/1.1&quot; 200 9481</td>
+<td class="success">ignoresMalformedRecords(String)[6]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[7] 192.0.2.1 - - [01/May/2025:07:20:10 +9960] &quot;GET /index.html HTTP/1.1&quot; 200 9481</td>
+<td class="success">ignoresMalformedRecords(String)[7]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[8] 192.0.2.1 - - [01/May/2025:07:20:10 +0000] &quot;GET /index.html HTTP/1.1&quot; XX 9481</td>
+<td class="success">ignoresMalformedRecords(String)[8]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[9] 192.0.2.1 - - [01/May/2025:07:20:10 +0000] &quot;GET /index.html HTTP/1.1&quot; 200 -1</td>
+<td class="success">ignoresMalformedRecords(String)[9]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">leavesInputInItsOriginalOrder()</td>
+<td class="success">leavesInputInItsOriginalOrder()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">limitsTopListAfterSortingTies()</td>
+<td class="success">limitsTopListAfterSortingTies()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">ranksByDescendingFrequencyThenAscendingAddress()</td>
+<td class="success">ranksByDescendingFrequencyThenAscendingAddress()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">returnsAllAddressesWhenTopNExceedsCount()</td>
+<td class="success">returnsAllAddressesWhenTopNExceedsCount()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">returnsEmptyCollectionsForEmptyInput()</td>
+<td class="success">returnsEmptyCollectionsForEmptyInput()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">returnsOnlyUniqueAddresses()</td>
+<td class="success">returnsOnlyUniqueAddresses()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">supportsIpv6AndDashForMissingByteCount()</td>
+<td class="success">supportsIpv6AndDashForMissingByteCount()</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[1] 0</td>
+<td class="success">topAddressesRejectNonPositiveLimit(int)[1]</td>
+<td class="success">0.013s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[2] -1</td>
+<td class="success">topAddressesRejectNonPositiveLimit(int)[2]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">topAddressesRejectNullList()</td>
+<td class="success">topAddressesRejectNullList()</td>
+<td class="success">0.018s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">uniqueAddressesRejectNullList()</td>
+<td class="success">uniqueAddressesRejectNullList()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="https://www.gradle.org">Gradle 9.2.1</a> at Nov 4, 2026, 4:25:28 PM</p>
+</div>
+</div>
+</body>
+</html>

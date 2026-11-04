@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ua.kpi.comsys.collections.LogAnalyzerTest" tests="27" skipped="0" failures="0" errors="0" timestamp="2026-11-04T14:25:28.482Z" hostname="DESKTOP-4KC971A" time="0.115">
+  <properties/>
+  <testcase name="topAddressesRejectNullList()" classname="ua.kpi.comsys.collections.LogAnalyzerTest" time="0.018"/>
+  <testcase name="ignoresMalformedAndNullEntriesWithoutCountingThem()" classname="ua.kpi.comsys.collections.LogAnalyzerTest" time="0.011"/>
+  <testcase name="[1] 0" classname="ua.kpi.comsys.collections.LogAnalyzerTest" time="0.013"/>
+  <testcase name="[2] -1" classname="ua.kpi.comsys.collections.LogAnalyzerTest" time="0.001"/>
+  <testcase name="uniqueAddressesRejectNullList()" classname="ua.kpi.comsys.collections.LogAnalyzerTest" time="0.0"/>
+  <testcase name="returnsAllAddressesWhenTopNExceedsCount()" classname="ua.kpi.comsys.collections.LogAnalyzerTest" time="0.001"/>
+  <testcase name="leavesInputInItsOriginalOrder()" classname="ua.kpi.comsys.collections.LogAnalyzerTest" time="0.001"/>
+  <testcase name="returnsEmptyCollectionsForEmptyInput()" classname="ua.kpi.comsys.collections.LogAnalyzerTest" time="0.0"/>
+  <testcase name="supportsIpv6AndDashForMissingByteCount()" classname="ua.kpi.comsys.collections.LogAnalyzerTest" time="0.002"/>
+  <testcase name="acceptsMissingRequestAndEscapedQuoteInRequestField()" classname="ua.kpi.comsys.collections.LogAnalyzerTest" time="0.001"/>
+  <testcase name="ranksByDescendingFrequencyThenAscendingAddress()" classname="ua.kpi.comsys.collections.LogAnalyzerTest" time="0.001"/>
+  <testcase name="returnsOnlyUniqueAddresses()" classname="ua.kpi.comsys.collections.LogAnalyzerTest" time="0.001"/>
+  <testcase name="limitsTopListAfterSortingTies()" classname="ua.kpi.comsys.collections.LogAnalyzerTest" time="0.001"/>
+  <testcase name="[1] " classname="ua.kpi.comsys.collections.LogAnalyzerTest" time="0.001"/>
+  <testcase name="[2]    " classname="ua.kpi.comsys.collections.LogAnalyzerTest" time="0.001"/>
+  <testcase name="[3] 192.0.2.1" classname="ua.kpi.comsys.collections.LogAnalyzerTest" time="0.001"/>
+  <testcase name="[4] 192.0.2.1 - - [01/May/2025:07:20:10 +0000] GET /index.html HTTP/1.1 200 9481" classname="ua.kpi.comsys.collections.LogAnalyzerTest" time="0.0"/>
+  <testcase name="[5] 192.0.2.1 - - [not-a-timestamp] &quot;GET /index.html HTTP/1.1&quot; 200 9481" classname="ua.kpi.comsys.collections.LogAnalyzerTest" time="0.004"/>
+  <testcase name="[6] 192.0.2.1 - - [31/Feb/2025:07:20:10 +0000] &quot;GET /index.html HTTP/1.1&quot; 200 9481" classname="ua.kpi.comsys.collections.LogAnalyzerTest" time="0.001"/>
+  <testcase name="[7] 192.0.2.1 - - [01/May/2025:07:20:10 +9960] &quot;GET /index.html HTTP/1.1&quot; 200 9481" classname="ua.kpi.comsys.collections.LogAnalyzerTest" time="0.001"/>
+  <testcase name="[8] 192.0.2.1 - - [01/May/2025:07:20:10 +0000] &quot;GET /index.html HTTP/1.1&quot; XX 9481" classname="ua.kpi.comsys.collections.LogAnalyzerTest" time="0.001"/>
+  <testcase name="[9] 192.0.2.1 - - [01/May/2025:07:20:10 +0000] &quot;GET /index.html HTTP/1.1&quot; 200 -1" classname="ua.kpi.comsys.collections.LogAnalyzerTest" time="0.0"/>
+  <testcase name="[10] 999.0.2.1 - - [01/May/2025:07:20:10 +0000] &quot;GET /index.html HTTP/1.1&quot; 200 9481" classname="ua.kpi.comsys.collections.LogAnalyzerTest" time="0.0"/>
+  <testcase name="[11] 192.0.2 - - [01/May/2025:07:20:10 +0000] &quot;GET /index.html HTTP/1.1&quot; 200 9481" classname="ua.kpi.comsys.collections.LogAnalyzerTest" time="0.0"/>
+  <testcase name="[12] 2001:::1 - - [01/May/2025:07:20:10 +0000] &quot;GET /index.html HTTP/1.1&quot; 200 9481" classname="ua.kpi.comsys.collections.LogAnalyzerTest" time="0.001"/>
+  <testcase name="[13] example.org - - [01/May/2025:07:20:10 +0000] &quot;GET /index.html HTTP/1.1&quot; 200 9481" classname="ua.kpi.comsys.collections.LogAnalyzerTest" time="0.001"/>
+  <testcase name="[14] 192.0.2.1 - - [01/May/2025:07:20:10 +0000] &quot;GET /index.html HTTP/1.1&quot; 200 9481 extra" classname="ua.kpi.comsys.collections.LogAnalyzerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
